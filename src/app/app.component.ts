@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nameTxt="Myproject"
-  disabled=false
+  showMe=true
   // title = 'secondProject';
   // id = "Abhishek  Bansal"
   // arrayData=[9,19,29,39,49];

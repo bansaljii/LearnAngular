@@ -1,10 +1,8 @@
 <h1>What is component</h1>
-<!-- <h2>{{title}} is the </h2>{{id}}
-<h1>Array data is : {{arrayData}}</h1>
-<h3>{{obj.name}}</h3> -->
-<!-- <app-login></app-login>
-Enter value : <input type="text" #txt><br><br>
-<button (click)="getTextBoxValue(txt)">getValue</button> -->
-<!--Property Binding in angular-->
-<input type="text" disabled={{disabled}} name={{nameTxt}}>
-<input type="text" [disabled]=disabled [name]=nameTxt>
+<h2 *ngIf="showMe; then ifBlock else elseBlock"></h2>
+<ng-template #ifBlock>
+    <h2>If Block</h2>
+</ng-template>
+<ng-template #elseBlock>
+    <h2>Else Block</h2>
+</ng-template>
