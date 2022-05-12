@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  nameTxt="Myproject"
+  disabled=false
   // title = 'secondProject';
   // id = "Abhishek  Bansal"
   // arrayData=[9,19,29,39,49];
