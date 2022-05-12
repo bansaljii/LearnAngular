@@ -1,4 +1,10 @@
 <h1>What is component</h1>
+<h2>*ngif in angular</h2>
+<h2 *ngIf="showMe Else elseBlock">Hi.. Abhishek Bansal</h2>
+<ng-template #elseBlock>
+    <h2>Else Block</h2>
+</ng-template>
+
 <!-- <h2>{{title}} is the </h2>{{id}}
 <h1>Array data is : {{arrayData}}</h1>
 <h3>{{obj.name}}</h3> -->
@@ -6,5 +12,5 @@
 Enter value : <input type="text" #txt><br><br>
 <button (click)="getTextBoxValue(txt)">getValue</button> -->
 <!--Property Binding in angular-->
-<input type="text" disabled={{disabled}} name={{nameTxt}}>
-<input type="text" [disabled]=disabled [name]=nameTxt>
+<!-- <input type="text" disabled={{disabled}} name={{nameTxt}}>
+<input type="text" [disabled]=disabled [name]=nameTxt> -->
