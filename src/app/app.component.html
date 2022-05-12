@@ -1,8 +1,8 @@
-<h1>What is component</h1>
-<h2 *ngIf="showMe; then ifBlock else elseBlock"></h2>
-<ng-template #ifBlock>
-    <h2>If Block</h2>
-</ng-template>
-<ng-template #elseBlock>
-    <h2>Else Block</h2>
-</ng-template>
+<h1>Switch case in Angular</h1>
+<div [ngSwitch]="color">
+    <h2 *ngSwitchCase="'red'" style="color: red;">red color</h2>
+    <h2 *ngSwitchCase="'green'" style="color: green;">green color</h2>
+    <h2 *ngSwitchCase="'yellow'" style="color: yellow;">yellow color</h2>
+    <h2 *ngSwitchCase="'purple'" style="color: purple;">purple color</h2>
+
+</div>
