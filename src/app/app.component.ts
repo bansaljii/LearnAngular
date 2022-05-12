@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'secondProject';
+  id = "Abhishek  Bansal"
+  arrayData=[9,19,29,39,49];
+  obj={
+    name : "Abhishek Bansal",
+    age :32
+  }
 }
